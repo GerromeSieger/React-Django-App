@@ -98,7 +98,7 @@ DATABASES = {
         "NAME": "computex",
         "USER": "admin",
         "PASSWORD": "12345",
-        "HOST": "localhost",
+        "HOST": "postgres",
         "PORT": "5432"
     }
 }
