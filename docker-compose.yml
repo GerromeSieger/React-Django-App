@@ -12,7 +12,7 @@ services:
 
   react:    
     build:
-      context: ./computex
+      context: ./ComputexFrontend
     container_name: react-container
     ports:
       - 80:80
