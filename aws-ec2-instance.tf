@@ -46,3 +46,14 @@ resource "aws_instance" "web2" {
 
 
 }
+resource "aws_instance" "web3" {
+  ami             = var.common_instance_params.ami
+  instance_type   = var.common_instance_params.instance_type
+  security_groups = [aws_security_group.instances-sg.name]
+  key_name        = var.common_instance_params.key_name
+  tags = {
+    Name = "master-vm"
+  }
+
+
+}
