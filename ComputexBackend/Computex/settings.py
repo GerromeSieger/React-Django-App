@@ -98,8 +98,7 @@ DATABASES = {
         "NAME": "computex",
         "USER": "admin",
         "PASSWORD": "12345",
-        "HOST": "localhost",
-        "PORT": "5432"
+        "HOST": "postgres-service"
     }
 }
 

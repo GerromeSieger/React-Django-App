@@ -1,7 +1,7 @@
 // auth.ts
 import axios from "axios";
 
-const BASE_URL = "http://3.92.23.180:8000";
+const BASE_URL = "https://api.gerrome.com.ng";
 
 export const login = async (username: string, password: string) => {
   try {
